@@ -1,17 +1,17 @@
 package subtask1
-
+import java.util.*
 class InvalidDayException : Exception()
 
 class DateFormatter {
 
     // TODO: Complete the following function
     fun toTextDay(day: String, month: String, year: String): String {
-        val date = Date(day.toInt(), month.toInt(), year.toInt())
-        return try {
-            "${day} ${date.monthString}, ${date.weekdayString}"
-        } catch (e: InvalidDayException) {
-            "Такого дня не существует"
-        }
+//        val date = Date(day.toInt(), month.toInt(), year.toInt())
+//        return try {
+//            "${day} ${date.monthString}, ${date.weekdayString}"
+//        } catch (e: InvalidDayException) {
+//            "Такого дня не существует"
+//        }
     }
 }
 
